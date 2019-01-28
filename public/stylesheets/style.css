@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+#topBar {
+	background-color: #02020a;
+}
+
+#topBarTitle {
+	color: white;
+	text-align:center;
+	font-family: 'Cinzel Decorative', cursive;
+	margin:27px;
+}
+
+#topBarLogo {
+	height:90px;
+	width:120px;
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+.socialLogo {
+	height: 40px;
+	width: 40px;
+	margin: 30px;
+}
+
+#ytLogo {
+	height:20px;
+	width:25px;
+	margin: 28px;
+
+}
+
+
+.socialLogo3 {
+	height: 40px;
+	width: 40px;
+	margin: 36px 30px 30px 30px;
+}
+.socialLogo1 {
+	height: 24px;
+	width: 24px;
+	margin: 30px;
+}
+
+.socialLogo2 {
+	height: 26px;
+	width: 26px;
+	margin: 30px;
+}
+
+.footerSocialLogo {
+	height: 40px;
+	width: 40px;
+	margin: 20px;
+}
+
+.footerSocialLogo1 {
+	height: 26px;
+	width: 26px;
+	margin: 20px;
+	margin-bottom: 21px;
+}
+
+.footerSocialLogo2 {
+	height: 23px;
+	width: 23px;
+	margin: 21px;
+	margin-bottom: 21px;
+
+}
+
+.nav-item {
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.navbar {
+	padding: 0;
+}
+
+#homeDiv {
+	background-image: url("https://www.billboard.com/files/media/Selena-Gomez-Revival-Tour-a-june-2016-2-billboard-1548.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+#contentBox {
+	padding-top: 400px;
+}
+
+#ytVid {
+	width: 100%;
+	height: 90%;
+}
+#midImg {
+	width: 80%;
+	height: 90%;
+	display: block;
+	margin: auto;
+}
+#rightImg {
+	width: 100%;
+	height: 90%;
+}
+
+.viewLink {
+	text-align: right;
+	font-weight: bold;
+	color: white;
+}
+
+.viewLink:hover {
+	cursor: pointer;
+	color: #d4b24d;
+}
+
+.title {
+	font-weight: bold;
+	color:#d4b24d;
+}
+
+#bottomBar {
+	background-color: #d4b24d;
+}
+
+#bottomBarTitle {
+	color: white;
+	text-align:center;
+	font-family: 'Cinzel', serif;
+	margin: 21px;
+	margin-bottom: 2px;
+}
+
+#mainTitle {
+	text-align: center;
+	color: #d4b24d;
+	margin: 0px;
+}
+
+hr {
+	margin: 0px;
+}
+
+table {
+	width: 100%;
+
+}
+td{
+	margin: auto;
+}
+
+td {
+	width: 50%;
+	padding: 10px;
+}
+tr {
+	padding: 10px;
+}
+#tableDataLeft {
+	text-align: right;
+	color: #d4b24d;
+	font-weight: bold;
+}
+
+#tableDataRight {
+	text-align: center;
+	text-align-last: left;
+}
+
+.viewLink1 {
+	text-align: right;
+	font-weight: bold;
+	color: #d4b24d;
+}
+
+a {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: #d4b24d;
+}
+h5 {
+	text-align: center;
+}
+#viewLink2 {
+	text-align: right;
+	font-weight: bold;
+	color: #d4b24d !important;
+}
+
+#bandImg {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height:80%;
+}
+
+#formPage {
+	background: url('http://www.pngpix.com/wp-content/uploads/2016/11/Selena-Gomez-PNG-Transparent-Image-500x738.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+
+}
+
+#tourBox {
+	background: url('http://3.bp.blogspot.com/-6v6tfHk7xCc/TmTdFKEXR0I/AAAAAAAAAv0/VmNEbz6SWao/s1600/4.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+
+}
+
+
+
+#formBox {
+	background-color: #00000075;
+}
+
+#submitBtn {
+	background-color: black;
+	color: white;
+}
+
+#submitBtn:hover {
+	background-color: #d4b24d;
+}
+
+
+#merchandisePic {
+	display: block;
+	margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  #merchandisePic {
+	width: 100%;
+}
+
+ #contentBox {
+ 	padding:10px;
+ }
+
+ #secondDiv {
+ 	margin-top: 30px;
+ }
+
+ #homeDiv {
+ 	height:860px;
+ 	background-size: cover;
+ 	background-position: left;
+ }
+
+ #midImg {
+ 	padding-top: 100px;
+ 	z-index:-1;
+ 	margin:auto;
+ 	width:50%;
+
+ 	
+ }
+ #ytVid {
+ 	height: 70%;
+ 	width:50%;
+ 	display: block;
+ 	margin: auto;
+ }
+ #rightImg {
+ 	width: 50%;
+ 	display: block;
+ 	margin: auto;
+ }
+ .title {
+ 	text-align: center;
+ }
+ .viewLink {
+ 	text-align:center;
+ }
+ #tourBox {
+ 	background-size: cover;
+ }
+}
+
